@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Sans-serif;
+}
+
+body {
+    background-image: url('./img/time_photo.jpg');
+    background-size: cover;
+}
+
+#headline {
+    color: #ffff00;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 60px;
+}
+
+#title {
+    color:#ff8000;
+    font-size: 25px;
+}
+
+#timer {
+    color: #8000ff;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 25px;
+    display: inline-block;
+}
+
+.lengthButton {
+    width: 100px;
+    font-size: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.startReset_container, .timer_container {
+    margin-top: 10px;
+}
+
+.container {
+    margin-top: 15%;
+    text-align: center;
+}
